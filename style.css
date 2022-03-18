@@ -27,8 +27,9 @@ ul{
     
 }
 li{
+    position: relative;
     display: inline-block;
-    padding:1em 1.2em;
+    padding: 0.4em;
     color:#777;
 }
 main{
@@ -49,8 +50,10 @@ Section{
     width: 4750px;
 }
 nav{
+    position: sticky;
+    background-color: white;
     color:#777;
-    top: 0 em;  
+    top: 0em;  
     border-top:2px solid grey;
     border-bottom: 2px solid grey;
 }
@@ -58,10 +61,9 @@ ul{
     position:sticky;
 }
 a{
-    position:relative;
+
     text-decoration: none;
-    padding:0em 2em 0em 2em
-   
+    padding:0em 0em 0em 0em
 }
 .more-articles{
     border-top:1px solid #eee;
